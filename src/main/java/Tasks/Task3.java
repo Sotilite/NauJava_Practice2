@@ -16,12 +16,7 @@ public class Task3 {
             return exampleList;
         }
 
-        public Employee() {
-            this.fullName = "";
-            this.age = 0;
-            this.department = "";
-            this.salary = 0.0;
-        }
+        public Employee() {}
 
         public Employee(String fullName, Integer age, String department, Double salary) {
             this.fullName = fullName;
